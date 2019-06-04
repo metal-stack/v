@@ -4,11 +4,11 @@ type version struct{}
 
 var (
 	// Version of the application
-	Version   = ""
+	Version = ""
 	// Revision of the application
-	Revision  = ""
+	Revision = ""
 	// GitSHA1 of the application
-	GitSHA1   = ""
+	GitSHA1 = ""
 	// BuildDate of the application
 	BuildDate = ""
 )
