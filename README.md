@@ -1,5 +1,6 @@
 # v
-
+[![Build Status](https://travis-ci.org/metal-pod/v.svg?branch=master)](https://travis-ci.org/metal-pod/v)
+[![Go Report Card](https://goreportcard.com/badge/github.com/metal-pod/v)](https://goreportcard.com/report/github.com/metal-pod/v)
 [![GoDoc](https://godoc.org/github.com/metal-pod/v?status.svg)](https://godoc.org/github.com/metal-pod/v)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/metal-pod/v/blob/master/LICENSE)
 
