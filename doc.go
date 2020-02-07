@@ -7,7 +7,7 @@ Add the following to your main.go
 
 	import (
 		"log"
-		"github.com/metal-pod/v"
+		"github.com/metal-stack/v"
 	)
 
 	func main() {
@@ -30,10 +30,10 @@ And in your Makefile:
 		GO111MODULE=on \
 		go build \
 		-tags netgo \
-		-ldflags "-X 'github.com/metal-pod/v.Version=$(VERSION)' \
-				-X 'github.com/metal-pod/v.Revision=$(GITVERSION)' \
-				-X 'github.com/metal-pod/v.GitSHA1=$(SHA)' \
-				-X 'github.com/metal-pod/v.BuildDate=$(BUILDDATE)'" \
+		-ldflags "-X 'github.com/metal-stack/v.Version=$(VERSION)' \
+				-X 'github.com/metal-stack/v.Revision=$(GITVERSION)' \
+				-X 'github.com/metal-stack/v.GitSHA1=$(SHA)' \
+				-X 'github.com/metal-stack/v.BuildDate=$(BUILDDATE)'" \
 		-o application
 
 */

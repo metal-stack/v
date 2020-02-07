@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/metal-pod/v"
+	"github.com/metal-stack/v"
 )
 
 func main() {
