@@ -4,7 +4,7 @@ type version struct{}
 
 var (
 	// Version of the application
-	Version = ""
+	Version = "version not set, please build your app with appropriate ldflags, see https://github.com/metal-stack/v for reference"
 	// Revision of the application
 	Revision = ""
 	// GitSHA1 of the application
