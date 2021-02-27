@@ -1,17 +1,16 @@
 # v
-[![Build Status](https://travis-ci.org/metal-stack/v.svg?branch=master)](https://travis-ci.org/metal-stack/v)
+
+[![Actions](https://github.com/metal-stack/v/workflows/build/badge.svg)](https://github.com/metal-stack/v/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/metal-stack/v)](https://goreportcard.com/report/github.com/metal-stack/v)
 [![GoDoc](https://godoc.org/github.com/metal-stack/v?status.svg)](https://pkg.go.dev/github.com/metal-stack/v)
 [![codecov](https://codecov.io/gh/metal-stack/v/branch/master/graph/badge.svg)](https://codecov.io/gh/metal-stack/v)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/metal-stack/v/blob/master/LICENSE)
-
 
 v simplifies printing version information of an application.
 
 ## Quickstart
 
 Add the following to your main.go
-
 
 ```go
 package main
@@ -61,5 +60,5 @@ Expected output:
 
 ```bash
 [...]
-INFO[10-29|14:22:34] application   version="devel (0b016992), heads/master-0-g0b01699, 2019-05-29T14:22:26+01:00"
+INFO[10-29|14:22:34] application   version="devel (0b016992), heads/master-0-g0b01699, 2019-05-29T14:22:26+01:00, go1.16"
 ```
