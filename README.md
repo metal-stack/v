@@ -61,5 +61,5 @@ Expected output:
 
 ```bash
 [...]
-INFO[10-29|14:22:34] application   version="devel (0b016992), heads/master-0-g0b01699, 2019-05-29T14:22:26+01:00"
+INFO[10-29|14:22:34] application   version="devel (0b016992), heads/master-0-g0b01699, 2019-05-29T14:22:26+01:00, go1.16"
 ```

@@ -1,5 +1,7 @@
 package v
 
+import "runtime"
+
 type version struct{}
 
 var (
@@ -27,5 +29,6 @@ func (v *version) String() string {
 	if BuildDate != "" {
 		versionString += ", " + BuildDate
 	}
+	versionString += ", " + runtime.Version()
 	return versionString
 }
